@@ -21,7 +21,7 @@ def getList(jsonFile):
 
 def saveList(dataList,jsonFile):
     outFile = open(jsonFile, "w",encoding="utf-8")
-    json.dump(dataList, outFile,indent=4)
+    json.dump(dataList, outFile, indent = 4)
     outFile.close()
 
     # "w" means open the file to write
