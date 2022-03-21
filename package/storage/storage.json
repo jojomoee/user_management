@@ -10,5 +10,7 @@
     "{\"persId\": 22, \"firstName\": \"Franz\", \"lastName\": \"Hans\", \"age\": 26, \"salaray\": 2000}",
     "{\"persId\": 22, \"firstName\": \"Franz\", \"lastName\": \"Hans\", \"age\": 26, \"salaray\": 2000}",
     "{\"persId\": 22, \"firstName\": \"Franz\", \"lastName\": \"Hans\", \"age\": 26, \"salaray\": 2000}",
-    "{\"persId\": 22, \"firstName\": \"Franz\", \"lastName\": \"Hans\", \"age\": 26, \"salaray\": 2000}"
+    "{\"persId\": 22, \"firstName\": \"Franz\", \"lastName\": \"Hans\", \"age\": 26, \"salaray\": 2000}",
+    "{\"persId\": 123, \"firstName\": \"dvsv\", \"lastName\": \"sdvaav\", \"age\": 23, \"salaray\": 2140.0}",
+    "{\"persId\": 23, \"firstName\": \"vasvd\", \"lastName\": \"vsdv\", \"age\": 342, \"salaray\": 2000.0}"
 ]
