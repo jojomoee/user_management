@@ -1,16 +1,13 @@
 import dataclass
-import helpers  
-
+import helpers
 
 storage_json = "storage/storage.json"
 storage_xml = "storage/storage.xml"
 
-       
-    
-
 def main():
-    dataclass.newPerson(storage_json)
-
+    output = helpers.getList(storage_json)
+    for i in range(len(output)):
+        
 main()
 
     

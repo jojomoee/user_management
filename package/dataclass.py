@@ -1,4 +1,5 @@
 import helpers
+from operator import itemgetter
 
 class Person:
     def __init__(self, persId, firstName, lastName, age, salaray):
@@ -22,13 +23,14 @@ def createPerson():
     return person
 
 def newPerson(saveFile):
-       person = createPerson()
-       personStr = helpers.toString(person)
-       personList = helpers.addPerson(personStr, saveFile)
-       helpers.saveList(personList, saveFile)
+    person = createPerson()
+    personStr = helpers.toString(person)
+    personList = helpers.addPerson(personStr, saveFile)
+    helpers.saveList(personList, saveFile) 
+
+def listAllPersons(jsonFile):
+    personList = helpers.getList(jsonFile)
+    personList.sort(key=itemgetter("persId"), reverse=True)
+    print(personList)
 
 
-#    def toJsonString(self):
-#       jsonString = json.dumps(self.__dict__)
-#       return jsonString
-  
